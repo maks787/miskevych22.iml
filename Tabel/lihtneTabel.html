@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lihtsamad tabelid</title>
+    <link rel="stylesheet" type="text/css" href="tabelStyle.css">
+
+</head>
+<body>
+<h1>Lihtsamad tabelid</h1>
+<table id="Tabel1">
+    <!-- 1 rida-->
+    <tr>
+        <!--lahter-->
+        <td>A</td>
+        <td>B</td>
+    </tr>
+    <!-- 2 rida-->
+    <tr>
+        <!--lahter-->
+        <td>C</td>
+        <td>D</td>
+    </tr>
+</table>
+<br>
+<br>
+<table id="Tabel2">
+    <caption>Tabel mis kasutab colspan</caption>
+    <!-- 1 rida-->
+    <tr>
+        <!--lahter-->
+        <td colspan="2">A</td>
+    </tr>
+    <!-- 2 rida-->
+    <tr>
+        <!--lahter-->
+        <td>B</td>
+        <td>C</td>
+    </tr>
+</table>
+<br>
+<br>
+<table id="Tabel3">
+    <caption>Tabel mis kasutab rowspan</caption>
+    <!-- 1 rida-->
+    <tr>
+        <!--lahter-->
+        <td rowspan="2">A</td>
+        <td>B</td>
+    </tr>
+    <!-- 2 rida-->
+    <tr>
+        <!--lahter-->
+        <td>C</td>
+    </tr>
+</table>
+<br>
+<br>
+<table id="Tabel4">
+    <caption>Tabel 4</caption>
+    <!-- 1 rida-->
+    <tr id="t4td1">
+        <!--lahter-->
+        <td colspan="4">A</td>
+    </tr>
+    <!-- 2 rida-->
+    <tr>
+        <!--lahter-->
+        <td id="t4td2" rowspan="2" colspan="2">B</td>
+        <td id="t4td3" colspan="2">C</td>
+    </tr>
+    <tr>
+        <!--lahter-->
+        <td id="t4td4" rowspan="2">D</td>
+        <td id="t4td5">E</td>
+    </tr>
+    <tr id="t4tr4">
+        <!--lahter-->
+        <td id="t4td6">G</td>
+        <td id="t4td7">X</td>
+        <td id="t4td8">F</td>
+    </tr>
+</table>
+</body>
+</html>

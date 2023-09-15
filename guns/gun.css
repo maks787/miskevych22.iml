@@ -1,0 +1,15 @@
+img#AK47{
+    position: absolute;
+    top:20%;
+    left: 20%;
+    border:solid 3pt blueviolet;
+
+}
+div{
+    text-align: left;
+    font-size: 32px;
+    color: red;
+    border-radius: 15px;
+    width: 90%;
+    text-align: center;
+}
